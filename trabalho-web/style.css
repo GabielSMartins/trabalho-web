@@ -1,0 +1,52 @@
+html{
+    box-sizing:border-box;
+}
+*,*:before,*:after{box-sizing:inherit;}
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    height: 70px;
+    width: 100%;
+    background-color:blue;
+}
+
+nav.menu{
+    position:relative;
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+    background-color:blue;
+    margin:0 auto;
+    padding:0 30px; 
+}
+.menu a{
+    margin:20px;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+.banner{
+    width: 300px;
+    height:500px;
+    display:inline-block;
+    margin: 10px;
+}
+.banner img{
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:10px;
+}
+.blog{
+    width: 200px;
+    height:200px;
+    display:inline-block;
+    margin: 45px;
+}
+.blog img{
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:10px;
+}
